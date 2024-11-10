@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+.content {
+  translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 50% 10%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    line-height: 1.1;
+    display: flex;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.5s ease-in-out;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
